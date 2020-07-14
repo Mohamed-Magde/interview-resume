@@ -1,15 +1,20 @@
 .startup-projects-main {
   display: flex;
+  width: 100%;
 }
 
 .startup-projects-main > * {
   flex: 1;
   margin-bottom: 30px;
 }
-
-.starup-project-image > img {
-  max-width: 100%;
-  height: auto;
+.startup-projects-main {
+  width: 90%;
+  margin: auto 0;
+}
+.starup-project-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .project-card-head {
@@ -28,6 +33,23 @@
 .project-card-description {
   color: rgb(88, 96, 105);
 }
+
+.saaya-health-div > img {
+  height: 350px;
+  width: 500px;
+  object-fit: cover;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.2);
+}
+.saaya-health-div:nth-child(3) > img {
+  object-position: 100% 0%;
+  height: 500px;
+  margin-top: -3em;
+}
+.saaya-health-div:nth-child(4) > img {
+  object-position: 100% 0%;
+  height: 500px;
+  margin-top: -3em;
+}
 .saaya-health-div,
 .nextu-div {
   cursor: pointer;
@@ -37,7 +59,7 @@
   .starup-project-image {
     display: none;
   }
-  .project-subtitle{
+  .project-subtitle {
     font-size: 16px;
     text-align: center;
   }

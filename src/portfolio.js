@@ -176,17 +176,28 @@ const openSource = {
 // Some Big Projects You have worked with your company
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Big Projectsss",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/big-projects/mernStack-socialMedia.png"),
+      link: "https://github.com/Mohamed-Magde/mernStack-social-media-app",
+      text: "MERN Stack social media app Building an extensive backend API with Node.js & Express"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+      image: require("./assets/big-projects/ecommerce-django.gif"),
+      link: "https://github.com/Mohamed-Magde/Django-ecommerce",
+      text: "DJANGO ecommerce displays products. Users can add and remove products to/from"
+
+    }, {
+      image: require("./assets/big-projects/react-ecommerce.png"),
+      link: "https://github.com/Mohamed-Magde/guzel-tekstil"
+      , text: ""
+    }, {
+      image: require("./assets/big-projects/ecommerce-react.png"),
+      link: "https://github.com/Mohamed-Magde/e-commerce-theme",
+      text: ""
+    },
   ]
 };
 
